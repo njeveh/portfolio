@@ -151,27 +151,14 @@
     }
 
 
-    #page-header .logo-container a #company-logo {
+    .my-logo {
         height: 100px;
     }
 
-    #page-header .logo-container #company-name {
+    .my-name {
         height: 60px;
         margin: 0 25px 5px 10px;
         padding-top: 5px;
         font-size: 60px;
     }
-
-    #page-header .logo-container #company-name2 {
-        position: absolute;
-        top: 70px;
-        left: 245px;
-        text-shadow: -1px 1px 4px white,
-            1px 1px 4px white,
-            1px -1px 0 white,
-            -1px -1px 0 white;
-        font-size: 55px;
-    }
-
-
 }
