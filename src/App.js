@@ -1,6 +1,5 @@
 
 import './App.css';
-import PageHeader from './global/header';
 import BrowseRoutes from './pages';
 
 function App() {
