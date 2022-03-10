@@ -1,6 +1,7 @@
 import React from "react"
 import { useState } from "react";
 import { FaBars, FaHome } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const TopNavBar = () => {
     const [className, setClassName] = useState("top-nav-bar")
@@ -17,19 +18,18 @@ const TopNavBar = () => {
     }
     return(
         <>
-            <div className={className + " col-6 col-s-6"}>
+            <nav className={className + " col-6 col-s-6"}>
                 <ul>
-						<li><FaHome /> Home</li>
-						<li>Portfolio</li>
-						<li>Services</li>
-						<li>About</li>
-						<li>Blog</li>
-						<li>Contact</li>
-                        <li className="icon" style={{float: "right"}}>
+						<li><Link to='/' className="nav links"><FaHome /> Home</Link></li>
+						<li><Link to='/projects' className="nav links">Projects</Link></li>
+						<li><Link to='/skills' className="nav links">Skills</Link></li>
+						<li><Link to='/about' className="nav links">About</Link></li>
+						<li><Link to='/contact' className="nav links">Contact</Link></li>
+                        <li className="icon nav links" style={{float: "right"}}>
                             <a href="true"><FaBars onClick={toggleNavBar}/></a>
                         </li>
                 </ul>
-            </div>
+            </nav>
         </>
     );
 }

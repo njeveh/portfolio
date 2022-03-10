@@ -1,14 +1,15 @@
 
 import './App.css';
 import PageHeader from './global/header';
+import BrowseRoutes from './pages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <PageHeader />
-      </header>
-    </div>
+    <>
+      <div className="App">
+          <BrowseRoutes />
+      </div>
+    </>
   );
 }
 

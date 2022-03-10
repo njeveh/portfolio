@@ -1,0 +1,12 @@
+
+.home-page-main .subtitle-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-page-main p {
+    display: block;
+    font-size: clamp(1.125em, 2vw, 1.6em);
+    margin-left: auto;
+    margin-right: auto;
+}

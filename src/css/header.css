@@ -1,8 +1,11 @@
 .page-header {
-    position: absolute;
+    position: sticky;
     top: 0px;
     display: inline-block;
     z-index: 100;
+    border-bottom: solid 2px black;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .my-logo {
@@ -18,6 +21,7 @@
     float: left;
     margin: 0 25px 5px 10px;
     padding-top: 5px;
+    color: #190D3b;
     text-shadow: -1px 1px 2px white,
         1px 1px 2px white,
         1px -1px 0 white,
@@ -39,11 +43,33 @@
 }
 
 .top-nav-bar ul li {
+    color: #190D3b;
     float: left;
     display: block;
     text-align: center;
     text-decoration: none;
     margin-left: 15px;
+}
+
+.top-nav-bar ul li .nav.links {
+    text-decoration: none;
+}
+
+.top-nav-bar ul li .nav.links:link {
+    color: #190D3b;
+}
+
+.top-nav-bar ul li .nav.links:hover {
+    color: red;
+    border-bottom: solid 2px red;
+}
+
+.top-nav-bar ul li .nav.links:active {
+    border-bottom: solid 2px red;
+}
+
+.top-nav-bar ul li .nav.links:visited {
+    color: #190D3b;
 }
 
 @media screen and (max-width: 600px) {
