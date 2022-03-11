@@ -1,6 +1,6 @@
 .page-header {
     display: block;
-    z-index: 1000;
+    z-index: 10000;
     border-bottom: solid 2px black;
     padding-bottom: 5px;
     margin-bottom: 0px;
@@ -78,6 +78,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    overflow-x:visible;
 }
 
 .contact-bar div {
@@ -85,9 +86,10 @@
     float: left;
     margin: 0px 15px;
     color: orange;
+    font-size: 1em;
 }
 
-.contact-bar div svg {
+svg, svg.contact-bar-icon {
     vertical-align: middle;
     display: inline-block;
 }

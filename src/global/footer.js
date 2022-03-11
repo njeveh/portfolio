@@ -17,9 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-links col-4 col-s4">
                     <div>
-                        <Link to='/' className="footer-link">Home</Link>
                         <Link to='/projects' className="footer-link">Projects</Link>
-                        <Link to='/skills' className="footer-link">Skills</Link>
                         <Link to='/about' className="footer-link">About</Link>
                         <Link to='/contact' className="footer-link">Contact</Link>
                     </div>
