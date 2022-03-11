@@ -1,6 +1,7 @@
-import TopNavBar from "./topNavBar"
 import "../css/header.css"
 import "../App.css"
+import TopNavBar from "./topNavBar"
+import ContactBar from "./contactBar"
 
 const PageHeader = () => {
     return(
@@ -13,6 +14,7 @@ const PageHeader = () => {
                     </div>
                     <TopNavBar />
                 </div>
+                <ContactBar />
         </header>
         </>
     );

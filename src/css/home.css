@@ -1,12 +1,24 @@
-
-.home-page-main .subtitle-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1.main-image-heading {
+    font-size: 2em;
 }
-.home-page-main p {
-    display: block;
-    font-size: clamp(1.125em, 2vw, 1.6em);
-    margin-left: auto;
-    margin-right: auto;
+
+#main-image-container {
+    padding: 0px;
+    margin: 10px 0 0;
+    position: relative;
+}
+
+.main-image {
+    padding: 0px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+
+.main-image-container .main-image-caption {
+    position: absolute;
+    top: 10%;
+    padding: 0 15px;
+    /* background-color: rgba(221, 18, 18, 0.5); */
+    color: white;
 }

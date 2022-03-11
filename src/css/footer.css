@@ -1,5 +1,50 @@
 .footer-container {
     background-color: #190D3b;
-    font-size: 4em;
+    font-size: clamp(1.1em, 1.5vw, 1.2em);
     color: white;
+}
+
+.footer-link:visited {
+    color: white;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:hover {
+    color: red;
+}
+
+a.footer-link {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+.footer-icon {
+    margin: 0px 15px;
+    font-size: 5vw;
+}
+
+.link-icons,
+.footer-links,
+.footer-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .link-icons,
+    .footer-links,
+    .footer-first {
+        height: 100px;
+        margin: 0px;
+        padding: 0px;
+    }
+
 }
