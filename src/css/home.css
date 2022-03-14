@@ -10,8 +10,8 @@ h1.main-image-heading {
 
 .main-image {
     padding: 0px;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
 }
 
 
@@ -21,4 +21,76 @@ h1.main-image-heading {
     padding: 0 15px;
     /* background-color: rgba(221, 18, 18, 0.5); */
     color: white;
+}
+
+.skill-banner-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+
+}
+
+.skill-banner {
+    display: block;
+    float: left;
+    margin: 10px 25px;
+    border-radius: 5%;
+    background-color: #00FFCC;
+    padding: 0px;
+
+}
+
+.skill-banner .skill-title {
+    height: 65px;
+    padding: 5px;
+}
+
+.skill-banner .skill-summary {
+    height: 150px;
+    padding: 10px;
+}
+
+.skill-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop: */
+
+    .top-nav-bar ul li.icon {
+        display: none;
+    }
+
+    .skill-banner-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .skill-banner {
+        display: block;
+        float: left;
+        margin: 10px 15px;
+        border-radius: 5%;
+        background-color: #00FFCC;
+        padding: 0px;
+
+    }
+
+
+    .skill-image {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
 }

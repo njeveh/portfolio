@@ -8,7 +8,7 @@
 }
 
 .my-logo {
-    height: 60px;
+    height: 50px;
     float: left;
     border-radius: 50%;
 }
@@ -16,9 +16,9 @@
 .my-name {
     display: flex;
     align-items: top;
-    height: 60px;
+    height: 50px;
     float: left;
-    margin: 0 25px 5px 10px;
+    margin: 0 25px 0px 10px;
     padding-top: 5px;
     color: #190D3b;
     text-shadow: -1px 1px 2px white,
@@ -47,7 +47,7 @@
     display: block;
     text-align: center;
     text-decoration: none;
-    margin-left: 15px;
+    padding: 5px 10px;
 }
 
 .top-nav-bar ul li .nav.links {
@@ -71,32 +71,35 @@
     color: #190D3b;
 }
 
-.contact-bar{
+.contact-bar {
     display: flex;
     margin: 0px 0px 5px 0px;
     padding: 5px;
     align-items: center;
     justify-content: center;
     background-color: black;
-    overflow-x:visible;
+    overflow-x: visible;
 }
 
 .contact-bar div {
     display: block;
     float: left;
-    margin: 0px 15px;
+    margin: 0px 10px;
     color: orange;
     font-size: 1em;
 }
 
-svg, svg.contact-bar-icon {
+svg,
+svg.contact-bar-icon {
     vertical-align: middle;
     display: inline-block;
 }
-.contact-bar div a:visited{
+
+.contact-bar div a:visited {
     color: orange;
 }
-.contact-bar div a:hover{
+
+.contact-bar div a:hover {
     color: green;
 }
 
@@ -133,64 +136,6 @@ svg, svg.contact-bar-icon {
 
 @media only screen and (min-width: 768px) {
 
-    /* For desktop: */
-
-    .top-nav-bar ul li.icon {
-        display: none;
-    }
-
-    [class*="col-"] {
-        font-size: 1em;
-    }
-
-    .col-1 {
-        width: 8.33%;
-    }
-
-    .col-2 {
-        width: 16.66%;
-    }
-
-    .col-3 {
-        width: 25%;
-    }
-
-    .col-4 {
-        width: 33.33%;
-    }
-
-    .col-5 {
-        width: 41.66%;
-    }
-
-    .col-6 {
-        width: 50%;
-    }
-
-    .col-7 {
-        width: 58.33%;
-    }
-
-    .col-8 {
-        width: 66.66%;
-    }
-
-    .col-9 {
-        width: 75%;
-    }
-
-    .col-10 {
-        width: 83.33%;
-    }
-
-    .col-11 {
-        width: 91.66%;
-    }
-
-    .col-12 {
-        width: 100%;
-    }
-
     .top-nav-bar ul li {
         float: left;
         display: block;
@@ -201,18 +146,45 @@ svg, svg.contact-bar-icon {
     }
 
     .top-nav-bar ul li {
-        padding: 25px 0px;
+        padding: 15px 0px;
     }
 
 
     .my-logo {
-        height: 100px;
+        height: 80px;
     }
 
     .my-name {
-        height: 60px;
-        margin: 0 25px 5px 10px;
+        height: 50px;
+        margin: 0 25px 0px 10px;
         padding-top: 5px;
-        font-size: 60px;
     }
+}
+
+@media only screen and (min-width: 600px) {
+    .top-nav-bar ul {
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+
+    .top-nav-bar ul li {
+        padding: 5px 10px
+    }
+
+    .top-nav-bar ul li.icon {
+        display: none;
+    }
+
+    #page-header .logo-container #company-name2 {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+    }
+
+    div.service-info-container {
+        border: none;
+    }
+
 }
