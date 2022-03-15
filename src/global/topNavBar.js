@@ -18,7 +18,7 @@ const TopNavBar = () => {
     }
     return(
         <>
-            <nav className={className + " col-6 col-s-6"}>
+            <nav className={className + " col-12 col-md-6"}>
                 <ul>
 						<li><Link to='/' className="nav links"><FaHome /> Home</Link></li>
 						<li><Link to='/projects' className="nav links">Projects</Link></li>

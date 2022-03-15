@@ -22,20 +22,28 @@ a.footer-link {
 }
 
 .footer-icon {
-    margin: 0px 15px;
+    margin: 0px 12px;
     font-size: 5vw;
 }
 
 .link-icons,
 .footer-links,
 .footer-first {
+    margin: 10px;
+    padding: 0px;
+}
+
+.indiv {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 25px;
-    margin: 10px 0px;
-    padding: 0px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    height: 100%;
 }
+/* p {
+    margin: auto;
+} */
 
 @media only screen and (min-width: 768px) {
 

@@ -1,6 +1,5 @@
 .page-header {
     display: block;
-    z-index: 10000;
     border-bottom: solid 2px black;
     padding-bottom: 5px;
     margin-bottom: 0px;
@@ -11,15 +10,16 @@
     height: 50px;
     float: left;
     border-radius: 50%;
+    margin: 0 0 0 20px;
 }
 
-.my-name {
+h2.my-name {
     display: flex;
     align-items: top;
     height: 50px;
     float: left;
-    margin: 0 25px 0px 10px;
-    padding-top: 5px;
+    margin: 0px 15px 0px 10px;
+    padding-top: 10px;
     color: #190D3b;
     text-shadow: -1px 1px 2px white,
         1px 1px 2px white,
@@ -29,7 +29,9 @@
 
 .logo-container {
     float: left;
-    padding: 10px 0 0 0;
+    padding: 10px 0 0 0px;
+    margin: 10px 0;
+
 }
 
 .top-nav-bar {
@@ -37,8 +39,13 @@
 }
 
 .top-nav-bar ul {
-    display: block;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
     list-style-type: none;
+    margin: 0px;
+    height: 100%;
 }
 
 .top-nav-bar ul li {
@@ -47,7 +54,8 @@
     display: block;
     text-align: center;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px;
+    margin-right: 30px;
 }
 
 .top-nav-bar ul li .nav.links {
@@ -104,6 +112,11 @@ svg.contact-bar-icon {
 }
 
 @media screen and (max-width: 600px) {
+
+    .top-nav-bar ul {
+        display: block;
+    }
+
     .top-nav-bar ul li:not(:first-child, :last-child) {
         display: none;
     }
@@ -111,7 +124,6 @@ svg.contact-bar-icon {
 
     .icon {
         float: right;
-        display: block;
     }
 
     .top-nav-bar.responsive {
@@ -135,12 +147,13 @@ svg.contact-bar-icon {
 
 
 @media only screen and (min-width: 768px) {
+    .top-nav-bar ul li.icon {
+        display: none;
+    }
 
     .top-nav-bar ul li {
-        float: left;
         display: block;
         text-align: center;
-        padding-top: 5px;
         text-decoration: none;
         margin-left: 25px;
     }
@@ -162,16 +175,6 @@ svg.contact-bar-icon {
 }
 
 @media only screen and (min-width: 600px) {
-    .top-nav-bar ul {
-        display: flex;
-        justify-content: left;
-        flex-wrap: wrap;
-        list-style-type: none;
-    }
-
-    .top-nav-bar ul li {
-        padding: 5px 10px
-    }
 
     .top-nav-bar ul li.icon {
         display: none;

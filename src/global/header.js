@@ -6,9 +6,9 @@ import ContactBar from "./contactBar"
 const PageHeader = () => {
     return(
         <>
-            <header className="App-header">
-                <div className="page-header col-12 col-s-12">
-                    <div className='logo-container col-6 col-s-6'>
+            <header className="App-header fixed-top">
+                <div className="page-header row">
+                    <div className='logo-container col-12 col-md-6'>
                         <img className='my-logo' src={require("../images/njeveh.jpg")} alt="Elijah" />
                         <h2 className="my-name">Elijah Mutemi</h2>
                     </div>
