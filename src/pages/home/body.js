@@ -25,10 +25,10 @@ const Body = () => {
                             </div>
                         </div>
                         <div className="skill-banner col-11 col-sm-5 col-md-3 p-0">
-                            <div className="skill-title"><h3>Mobile Application Developer</h3></div>
+                            <div className="skill-title"><h3>Desktop Application Developer</h3></div>
                             <img className='.skill-image img-fluid' src={require("../../images/mobil3.jpg")} alt="Welcome" />
                             <div className="skill-summary">
-                                I am currently learning how to build cross-platform mobile applications using React Native and C++,
+                                I am currently learning how to build cross-platform desktop applications using Python and C++ and QT,
                                 and I am available for a job opportunity or internship program offering me a chance to gain hands on experience
                                 in this.
                             </div>
