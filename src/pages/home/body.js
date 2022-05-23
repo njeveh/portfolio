@@ -2,7 +2,7 @@ import HomePageCarousel from "./couresel";
 const Body = () => {
     return(
         <>
-            <div className="page-body pt-0">
+            <div className="page-main-body pt-0">
                 <div id="main-image-container">
                 <HomePageCarousel />              
                 </div>

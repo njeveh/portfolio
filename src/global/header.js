@@ -7,7 +7,7 @@ const PageHeader = () => {
     return(
         <>
             <header className="App-header fixed-top">
-                <div className="page-header row">
+                <div className="page-header row mx-0">
                     <div className='logo-container col-12 col-md-6'>
                         <img className='my-logo' src={require("../images/njeveh.jpg")} alt="Elijah" />
                         <h2 className="my-name">Elijah Mutemi</h2>

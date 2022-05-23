@@ -5,7 +5,7 @@ const About = () => {
     return(
         <>
             <PageHeader />
-            <div className="page-body">
+            <div className="page-main-body">
                 <div className="col-12 col-s-12" style={{ position: "relative" }}>
                     <Body />
                 </div>

@@ -26,10 +26,8 @@ a.footer-link {
     font-size: 5vw;
 }
 
-.link-icons,
-.footer-links,
-.footer-first {
-    margin: 10px;
+div.footer-div {
+    margin: 0px;
     padding: 0px;
 }
 
@@ -47,9 +45,7 @@ a.footer-link {
 
 @media only screen and (min-width: 768px) {
 
-    .link-icons,
-    .footer-links,
-    .footer-first {
+    div.footer-div {
         height: 100px;
         margin: 0px;
         padding: 0px;

@@ -1,8 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 .page-header {
     display: block;
     border-bottom: solid 2px black;
     margin-bottom: 0px;
     background-color: white;
+    box-sizing: border-box;
 }
 
 .my-logo {
@@ -109,6 +113,11 @@ svg.contact-bar-icon {
     color: green;
 }
 
+div.contact-bar, nav.top-nav-bar, div.logo-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
 @media screen and (max-width: 600px) {
 
     .top-nav-bar ul {
@@ -130,7 +139,6 @@ svg.contact-bar-icon {
 
     .top-nav-bar.responsive ul li.icon {
         position: absolute;
-        right: 0;
         top: 0;
     }
 

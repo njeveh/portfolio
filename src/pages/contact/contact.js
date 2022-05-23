@@ -5,7 +5,7 @@ const Contact = () => {
     return(
         <>
             <PageHeader />
-            <div className="page-body pb-0">
+            <div className="page-main-body pb-0">
                 <div className="col-12 col-s-12" style={{ position: "relative" }}>
                 <ContactBox />
                 </div>
