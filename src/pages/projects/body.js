@@ -1,4 +1,5 @@
 import '../../css/projects.css';
+import { FaTimes } from 'react-icons/fa';
 const Body = () => {
     return (
         <>
@@ -92,7 +93,7 @@ const Body = () => {
                     <a href="https://github.com/njeveh" className="btn btn-xl btn-dark" target="blank">Visit My GitHub &nbsp;<i className="fa fa-github"></i></a>
                 </div>
             </section>
-            <div className="portfolio-modal modal fade" id="portfolioModal1" tabIndex="-1" role="dialog" aria-hidden="true">
+            <div className="portfolio-modal modal fade" id="portfolioModal1">
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="close-modal" data-dismiss="modal">
@@ -111,11 +112,11 @@ const Body = () => {
                                         <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
                                         <div className="lead mb-4">
                                             <b>View this project on GitHub: </b>
-                                            <a href="https://github.com/ewadkins/NeuralModel" target="blank">https://github.com/ewadkins/NeuralModel</a>
-                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=ewadkins&repo=NeuralModel"  frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                            <a href="https://github.com/njeveh/jenga_bay/tree/dev" target="blank">https://github.com/njeveh/jenga_bay/tree/dev</a>
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=njeveh&repo=jenga_bay"  frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
                                         </div>
                                         <a className="btn btn-dark btn-l" data-dismiss="modal" href="#">
-                                            <i className="fa fa-times"></i> Close project
+                                            <FaTimes /> Close project
                                         </a>
                                         </div>
                                 </div>
