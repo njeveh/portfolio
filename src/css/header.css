@@ -99,7 +99,7 @@ h2.my-name {
     font-size: 1em;
 }
 
-svg,
+path, svg,
 svg.contact-bar-icon {
     vertical-align: middle;
     display: inline-block;
@@ -124,8 +124,11 @@ div.contact-bar, nav.top-nav-bar, div.logo-container {
         display: block;
     }
 
-    .top-nav-bar ul li:not(:first-child, :last-child) {
+    .top-nav-bar ul li:not(:last-child) {
         display: none;
+    }
+    .top-nav-bar ul li:last-child {
+        font-size: 30px;
     }
 
 
@@ -138,8 +141,7 @@ div.contact-bar, nav.top-nav-bar, div.logo-container {
     }
 
     .top-nav-bar.responsive ul li.icon {
-        position: absolute;
-        top: 0;
+        display: none;
     }
 
     .top-nav-bar.responsive ul li {
