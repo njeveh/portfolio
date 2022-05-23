@@ -105,7 +105,7 @@ const Body = () => {
                             <div className="row">
                                 <div className="col-lg-10 mx-auto">
                                     <div className="modal-body">
-                                        <h2>Neural Model Library</h2>
+                                        <h2>JengaBay</h2>
                                         <p className="lead">Simple creation of feed forward and recurrent neural models in Tensorflow.</p>
                                         <p className="lead">This library enables incredibly simple creation of feed forward and recurrent neural models in TensorFlow. Simply specify the input shape, output shape, and a list of components (or layers) to make up the network. The library then figures out the dimensions of each component, initializes each component, and builds the model automatically. Most importantly, the model is able to infer the sizes of intermediate layers (including recurrent inputs) automatically, requiring you to only specify the essentials. This enables you to make quick changes to your entire model in just a few lines.</p>
                                         <p className="lead">Several of my friends have commented that, in working on this project, I've essentially just re-created Keras in Tensorflow. In retrospect, it is quite similar to Keras's Sequential model framework, with the addition of being capable of recurrent connections throughout the sequential model. Nonetheless, it was a good learning experience.</p>
@@ -113,7 +113,7 @@ const Body = () => {
                                         <div className="lead mb-4">
                                             <b>View this project on GitHub: </b>
                                             <a href="https://github.com/njeveh/jenga_bay/tree/dev" target="blank">https://github.com/njeveh/jenga_bay/tree/dev</a>
-                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=njeveh&repo=jenga_bay"  frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=njeveh&repo=jenga_bay" title='JengaBay github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
                                         </div>
                                         <a className="btn btn-dark btn-l" data-dismiss="modal" href="#">
                                             <FaTimes /> Close project
