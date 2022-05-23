@@ -11,7 +11,7 @@ const Body = () => {
                     Agriculture and Technology</a>, currently in my third year of study. I am also
                     pursuing an extra software engineering course offered online by <a href="https://www.alxafrica.com/" target={"_blank"} rel="noreferrer">ALX</a> in partnership
                     with <a href="https://www.holbertonschool.com/" target={"_blank"} rel="noreferrer">Holberton School</a>.<br /><br />
-                    My enthusiasms include software design and development, data science, artificial
+                    My enthusiasms include software systems design and development, data science, artificial
                     intelligence, machine learning and networking.<br /><br />
                     I have collaborated with fellow students on several school projects
                     and have developed software for clients on a contractual basis. Through that, I have gained

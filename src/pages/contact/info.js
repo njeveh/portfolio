@@ -1,6 +1,10 @@
 import '../../css/contact.css'
 import { FaMobile, FaEnvelope, FaPaperPlane} from "react-icons/fa";
 const ContactBox = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        window.alert("Sorry, this functionality is yet to be implemented. Coming soon though!")
+      };
     return (
         <>
             <div className="contact-box">
@@ -17,7 +21,7 @@ const ContactBox = () => {
                 </div>
                 <h3>Or use the form below</h3>
                 <div className='contact-form align-center'>
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <label>Name * :<br />
                             <input className='input-field' type="text" name='name' required/>
                         </label><br />
