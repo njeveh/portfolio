@@ -112,12 +112,172 @@ const Body = () => {
                                         <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
                                         <div className="lead mb-4">
                                             <b>View this project on GitHub: </b>
+                                            <a href="https://github.com/JengaBay/jenga_bay" target="blank">https://github.com/JengaBay/jenga_bay</a>
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=JengaBay&repo=jenga_bay" title='JengaBay github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                        </div>
+                                        <button className="btn btn-dark btn-l" data-dismiss="modal" target-data="#">
+                                            <FaTimes /> Close project
+                                        </button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModal2">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl"></div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-10 mx-auto">
+                                    <div className="modal-body">
+                                        <h2>Glamour Haven</h2>
+                                        <p className="lead">Simple creation of feed forward and recurrent neural models in Tensorflow.</p>
+                                        <p className="lead">This library enables incredibly simple creation of feed forward and recurrent neural models in TensorFlow. Simply specify the input shape, output shape, and a list of components (or layers) to make up the network. The library then figures out the dimensions of each component, initializes each component, and builds the model automatically. Most importantly, the model is able to infer the sizes of intermediate layers (including recurrent inputs) automatically, requiring you to only specify the essentials. This enables you to make quick changes to your entire model in just a few lines.</p>
+                                        <p className="lead">Several of my friends have commented that, in working on this project, I've essentially just re-created Keras in Tensorflow. In retrospect, it is quite similar to Keras's Sequential model framework, with the addition of being capable of recurrent connections throughout the sequential model. Nonetheless, it was a good learning experience.</p>
+                                        <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
+                                        <div className="lead mb-4">
+                                            <b>View this project on GitHub: </b>
+                                            <a href="https://github.com/ProjectXV/GlamourHaven" target="blank">https://github.com/ProjectXV/GlamourHaven</a>
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=ProjectXV&repo=GlamourHaven" title='Glamour Haven github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                        </div>
+                                        <button className="btn btn-dark btn-l" data-dismiss="modal" target-data="#">
+                                            <FaTimes /> Close project
+                                        </button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModal3">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl"></div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-10 mx-auto">
+                                    <div className="modal-body">
+                                        <h2>Wellington Valuers Company Website</h2>
+                                        <p className="lead">Simple creation of feed forward and recurrent neural models in Tensorflow.</p>
+                                        <p className="lead">This library enables incredibly simple creation of feed forward and recurrent neural models in TensorFlow. Simply specify the input shape, output shape, and a list of components (or layers) to make up the network. The library then figures out the dimensions of each component, initializes each component, and builds the model automatically. Most importantly, the model is able to infer the sizes of intermediate layers (including recurrent inputs) automatically, requiring you to only specify the essentials. This enables you to make quick changes to your entire model in just a few lines.</p>
+                                        <p className="lead">Several of my friends have commented that, in working on this project, I've essentially just re-created Keras in Tensorflow. In retrospect, it is quite similar to Keras's Sequential model framework, with the addition of being capable of recurrent connections throughout the sequential model. Nonetheless, it was a good learning experience.</p>
+                                        <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
+                                        <div className="lead mb-4">
+                                            <b>View this project on GitHub: </b>
+                                            <a href="https://github.com/Wellington-Valuers/web" target="blank">https://github.com/Wellington-Valuers/web</a>
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=Wellington-Valuers&repo=web" title='Wellington github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                        </div>
+                                        <button className="btn btn-dark btn-l" data-dismiss="modal" target-data="#">
+                                            <FaTimes /> Close project
+                                        </button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModal4">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl"></div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-10 mx-auto">
+                                    <div className="modal-body">
+                                        <h2>Starinc Tenancy Management System</h2>
+                                        <p className="lead">Simple creation of feed forward and recurrent neural models in Tensorflow.</p>
+                                        <p className="lead">This library enables incredibly simple creation of feed forward and recurrent neural models in TensorFlow. Simply specify the input shape, output shape, and a list of components (or layers) to make up the network. The library then figures out the dimensions of each component, initializes each component, and builds the model automatically. Most importantly, the model is able to infer the sizes of intermediate layers (including recurrent inputs) automatically, requiring you to only specify the essentials. This enables you to make quick changes to your entire model in just a few lines.</p>
+                                        <p className="lead">Several of my friends have commented that, in working on this project, I've essentially just re-created Keras in Tensorflow. In retrospect, it is quite similar to Keras's Sequential model framework, with the addition of being capable of recurrent connections throughout the sequential model. Nonetheless, it was a good learning experience.</p>
+                                        <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
+                                        <div className="lead mb-4">
+                                            <b>View this project on GitHub: </b>
+                                            <a href="https://github.com/Starr-Inc" target="blank">https://github.com/Starr-Inc</a>
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=njeveh&repo=goshen_backend" title='Starinc github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                        </div>
+                                        <button className="btn btn-dark btn-l" data-dismiss="modal" target-data="#">
+                                            <FaTimes /> Close project
+                                        </button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModal5">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl"></div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-10 mx-auto">
+                                    <div className="modal-body">
+                                        <h2>Career Portfolio</h2>
+                                        <p className="lead">Simple creation of feed forward and recurrent neural models in Tensorflow.</p>
+                                        <p className="lead">This library enables incredibly simple creation of feed forward and recurrent neural models in TensorFlow. Simply specify the input shape, output shape, and a list of components (or layers) to make up the network. The library then figures out the dimensions of each component, initializes each component, and builds the model automatically. Most importantly, the model is able to infer the sizes of intermediate layers (including recurrent inputs) automatically, requiring you to only specify the essentials. This enables you to make quick changes to your entire model in just a few lines.</p>
+                                        <p className="lead">Several of my friends have commented that, in working on this project, I've essentially just re-created Keras in Tensorflow. In retrospect, it is quite similar to Keras's Sequential model framework, with the addition of being capable of recurrent connections throughout the sequential model. Nonetheless, it was a good learning experience.</p>
+                                        <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
+                                        <div className="lead mb-4">
+                                            <b>View this project on GitHub: </b>
+                                            <a href="https://github.com/njeveh/portfolio" target="blank">https://github.com/njeveh/portfolio</a>
+                                            <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=njeveh&repo=portfolio" title='Portfolio github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
+                                        </div>
+                                        <button type='button' className="btn btn-dark btn-l" data-dismiss="modal" target-data="#">
+                                            <FaTimes /> Close project
+                                        </button>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="portfolio-modal modal fade" id="portfolioModal6">
+                <div className="modal-dialog">
+                    <div className="modal-content">
+                        <div className="close-modal" data-dismiss="modal">
+                            <div className="lr">
+                                <div className="rl"></div>
+                            </div>
+                        </div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-lg-10 mx-auto">
+                                    <div className="modal-body">
+                                        <h2>Simple Shell</h2>
+                                        <p className="lead">Simple creation of feed forward and recurrent neural models in Tensorflow.</p>
+                                        <p className="lead">This library enables incredibly simple creation of feed forward and recurrent neural models in TensorFlow. Simply specify the input shape, output shape, and a list of components (or layers) to make up the network. The library then figures out the dimensions of each component, initializes each component, and builds the model automatically. Most importantly, the model is able to infer the sizes of intermediate layers (including recurrent inputs) automatically, requiring you to only specify the essentials. This enables you to make quick changes to your entire model in just a few lines.</p>
+                                        <p className="lead">Several of my friends have commented that, in working on this project, I've essentially just re-created Keras in Tensorflow. In retrospect, it is quite similar to Keras's Sequential model framework, with the addition of being capable of recurrent connections throughout the sequential model. Nonetheless, it was a good learning experience.</p>
+                                        <p className="lead">More detailed project description coming soon!<br /> In the meantime, check out some of my other projects.</p>
+                                        <div className="lead mb-4">
+                                            <b>View this project on GitHub: </b>
                                             <a href="https://github.com/njeveh/jenga_bay/tree/dev" target="blank">https://github.com/njeveh/jenga_bay/tree/dev</a>
                                             <iframe className="mt-2" src="http://lab.lepture.com/github-cards/card.html?user=njeveh&repo=jenga_bay" title='JengaBay github' frameBorder="0" scrolling={0} width="400" style={{ maxWidth: "70vw"}} height={180} allowtransparency="true"></iframe><br />
                                         </div>
-                                        <a className="btn btn-dark btn-l" data-dismiss="modal" href="#">
+                                        <button className="btn btn-dark btn-l" data-dismiss="modal" target-data="#">
                                             <FaTimes /> Close project
-                                        </a>
+                                        </button>
                                         </div>
                                 </div>
                             </div>
