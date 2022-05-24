@@ -19,7 +19,7 @@ const HomePageCarousel = () => {
                 <Carousel.Item>
                     <img className='main-image col-12' src={require("../../images/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg")} alt="Welcome" />
                     <Carousel.Caption className='main-image-caption'>
-                        <h1 className='col-12'>A Computer Science Undergraduate and Software Developer</h1>
+                        <h1 className='col-12'>A Computer Science Enthusiast and Software Developer</h1>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
