@@ -1,5 +1,5 @@
 import "../../css/skills.css"
-import { FaJava, FaPython, FaDev, FaLaravel, FaReact} from "react-icons/fa";
+import { FaJava, FaPython, FaDev, FaLaravel, FaReact, FaLinux} from "react-icons/fa";
 import { SiDjango, SiCplusplus, SiPhp, SiJavascript} from "react-icons/si";
 import { BsCodeSlash} from "react-icons/bs";
 import { CgWebsite } from "react-icons/cg";
@@ -40,6 +40,31 @@ const SkillsBody = () => {
                     the frontend developer, or both. my current web development tech stack is PHP/Laravel, Python/Django,
                     Javascript/React, CSS, HTML, MySQL, PostgreSQL, SQLite, MariaDB and a little bit of Java.</p>
                 </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <span className="rounded-circle mx-auto mb-3 text-secondary">
+                    <FaLinux className="service-icon" />
+                    </span>
+                    <h4>
+                    <b>Unix/Linux</b>
+                    </h4>
+                    <p className="text-faded mb-0">I have quite extensive experience using and studying Unix/Linux Os. I have been using
+                        Ubuntu and Kali Linux for over <strong>two</strong> years now and have gained reliable knowledge and experience
+                        on using the command line interface and interacting with the kernel programmaticatly through system calls.
+                    </p>
+                </div>
+                <div className="col-lg-4 col-md-6 mb-5">
+                    <span className="rounded-circle mx-auto mb-3 text-secondary">
+                    <ImDatabase className="service-icon" />
+                    </span>
+                    <h4>
+                    <b>Database Management Systems</b>
+                    </h4>
+                    <p className="text-faded mb-0">
+                        I have huge passion for designing databases and writing code that store to, retreive and manipulate
+                        data from them. I have experience  using MySQL, PostgreSQL, SQLite and MariaDB as the database
+                        management systems for my applications.
+                    </p>
+                    </div>
                 <div className="col-lg-4 col-md-6 mb-5">
                     <div className="rounded-circle mx-auto mb-3 text-secondary">
                     <FaJava className="service-icon" />
@@ -133,19 +158,6 @@ const SkillsBody = () => {
                     school projects and building websites for clients, I develop responsive front-end applications,
                     consisting of HTML and CSS/Bootstrap.</p>
                 </div>
-                <div className="col-lg-4 col-md-6 mb-0">
-                    <span className="rounded-circle mx-auto mb-3 text-secondary">
-                    <ImDatabase className="service-icon" />
-                    </span>
-                    <h4>
-                    <b>Database Management Systems</b>
-                    </h4>
-                    <p className="text-faded mb-0">
-                        I have huge passion for designing databases and writing code that store to, retreive and manipulate
-                        data from them. I have experience  using MySQL, PostgreSQL, SQLite and MariaDB as the database
-                        management systems for my applications.
-                    </p>
-                    </div>
                 </div>
                 </div>
             </section>

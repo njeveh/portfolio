@@ -1,59 +1,181 @@
-
-.portfolio-item {
-    display: block;
-    position: relative;
-    overflow: hidden;
-    max-width: 530px;
-    margin: auto auto 1rem;
+.p-item-container {
+  padding: 6px;
 }
+.portfolio-item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  max-width: 530px;
+  margin: auto auto 1rem;
+}
+
 .portfolio-item .caption {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(33, 37, 41, 0.2);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    z-index: 1;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(33, 37, 41, 0.2);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
 }
 
 .portfolio-item .caption .caption-content {
-    color: #fff;
-    margin: auto 2rem 2rem;
-    text-shadow: 0px 0px 20px #000000;
+  color: #fff;
+  margin: auto 2rem 2rem;
+  text-shadow: 0px 0px 20px #000000;
+}
+
+.portfolio-item .caption .caption-content h2 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.portfolio-item .caption .caption-content p {
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  *color: rgba(255, 255, 255, 0.7);
+  color: white;
 }
 
 .portfolio-item .caption .caption-content h4 {
-    color: orange;
+  color: #fcbc1d;
 }
-.portfolio-item .caption .caption-content p {
-    font-weight: 900;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    color: white;
+.portfolio-item:hover .caption .caption-content h4 {
+  color: #fcbc1d;
 }
 
-@media (max-width: 768px){
-.portfolio-img {
-    height: 358px;
-    width: 100%;
+@media (min-width: 992px) {
+  .portfolio-item {
+    max-width: none;
+    margin: 0;
+  }
+  .portfolio-item .caption {
+    transition: -webkit-clip-path 0.25s ease-out, background-color 0.25s; /*0.7*/
+    -webkit-clip-path: inset(0px);
+    clip-path: inset(0px);
+  }
+  .portfolio-item .caption .caption-content {
+    transition: opacity 0.25s;
+    transition: text-shadow 0.25s;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .portfolio-item .caption .caption-content h4 {
+    transition: color 0.25s;
+  }
+  .portfolio-item img {
+    transition: -webkit-clip-path 0.25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+  .portfolio-item:hover .caption {
+    background-color: rgba(41, 136, 188, 0.9); /*rgba(29, 128, 159, 0.9)*/
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
+  }
+  .portfolio-item:hover .caption .caption-content {
+    text-shadow: none;
+  }
 }
+
+
+@media (min-width: 1200px) {
+  .portfolio-item .caption .caption-content {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+  }
+  .portfolio-item:hover img {
+    -webkit-clip-path: inset(1.5rem);
+    clip-path: inset(1.5rem);
+  }
+  .portfolio-item:hover .caption {
+    -webkit-clip-path: inset(1.5rem);
+    clip-path: inset(1.5rem);
+  }
 }
-@media (max-width: 992px){
-.portfolio-img {
-    height: 358px;
-    width: 100%;
+
+.btn-primary {
+  background-color: #2988bc !important;
+  border-color: #2988bc !important;
+  color: #fff !important;
 }
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #2c6995 !important;
+  border-color: #2c6995 !important;
 }
-@media (max-width: 1200px){
-.portfolio-img {
-    height: 209px;
-    width: 100%;
+
+.btn-secondary {
+  background-color: #fcbc1d !important;
+  border-color: #fcbc1d !important;
+  color: #fff !important;
 }
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
+  background-color: #fbab25 !important;
+  border-color: #fbab25 !important;
 }
+
+.btn-dark {
+  color: #fff !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+}
+
+.bg-primary {
+  background-color: #2988bc !important;
+}
+
+.text-primary {
+  color: #2988bc !important;
+}
+
+.text-secondary {
+  color: #fcbc1d !important;
+}
+
 .portfolio-img {
     height: 250px;
     width: 100%;
+}
+
+@media (max-width: 1200px) {  
+  .portfolio-img {
+    height: 209px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {  
+  .portfolio-img {
+    height: 358px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {  
+  .portfolio-img {
+    height: 358px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {  
+  .portfolio-img {
+    height: 65vw;
+    width: 100%;
+  }
 }
 img {
     vertical-align: middle;
