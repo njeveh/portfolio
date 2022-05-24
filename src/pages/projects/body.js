@@ -54,7 +54,7 @@ const Body = () => {
                             <span className="caption">
                                 <span className="caption-content">
                                     <h4>Tenancy Management System</h4>
-                                    <p className="mb-0">A real estate management system that is focused on managing tenacies.</p>
+                                    <p className="mb-0">A real estate management system that is focused on managing tenancies.</p>
                                 </span>
                             </span>
                             <img className="img-fluid portfolio-img" src={require("../../images/project_images/starinc.png")} alt="Starinc" />
@@ -228,7 +228,7 @@ const Body = () => {
                                             be added manually. Once a house is vacated it is showcased on a website and people searching for a house
                                             can see it and book if interested. I built the project's backend application using PhP/Laravel.</p>
                                         <p className="lead">Visit the website via:<br />
-                                            <a href="https://wellington-dev.herokuapp.com/" target="blank">https://wellington-dev.herokuapp.com/</a>
+                                            <a href="https://goshenapartments.vercel.app/" target="blank">https://goshenapartments.vercel.app/</a>
                                         </p>
                                         <div className="lead mb-4">
                                             <b>This project's code can't be viewed on GitHub since it's repository is private for security purposes: </b>

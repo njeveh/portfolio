@@ -35,7 +35,7 @@ const ContactBox = () => {
                             <textarea className='input-field' name='message' required/>
                         </label><br />
                             <button type="submit" class="btn btn-primary">Send <FaPaperPlane /></button>
-                            <button type="reset" class="btn btn-primary" style={{ backgroundColor: "red" }}>Clear</button>
+                            <button type="reset" class="btn btn-primary" style={{ backgroundColor: "red"}}>Clear</button>
                     </form>
                 </div>
             </div>

@@ -102,28 +102,6 @@
   }
 }
 
-.btn-primary {
-  background-color: #2988bc !important;
-  border-color: #2988bc !important;
-  color: #fff !important;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #2c6995 !important;
-  border-color: #2c6995 !important;
-}
-
-.btn-secondary {
-  background-color: #fcbc1d !important;
-  border-color: #fcbc1d !important;
-  color: #fff !important;
-}
-
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #fbab25 !important;
-  border-color: #fbab25 !important;
-}
-
 .btn-dark {
   color: #fff !important;
 }
@@ -131,18 +109,6 @@
 .btn {
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
-}
-
-.bg-primary {
-  background-color: #2988bc !important;
-}
-
-.text-primary {
-  color: #2988bc !important;
-}
-
-.text-secondary {
-  color: #fcbc1d !important;
 }
 
 .portfolio-img {
